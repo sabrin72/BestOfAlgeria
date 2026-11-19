@@ -1,48 +1,145 @@
-
-# Best of Algeria
+# 🇩🇿 Best of Algeria
 
 **Discover Algeria. Explore its beauty. Experience its best.**
 
-Best of Algeria is a web platform dedicated to showcasing the best of Algeria, from its beautiful destinations and hidden gems to local businesses, clubs, and unique places worth discovering.
+Best of Algeria is a modern web platform for discovering Algeria's destinations, hidden gems, local businesses, clubs, activities, and unique places across the country's 58 wilayas.
 
-The goal is to make exploring Algeria easier by bringing interesting places, experiences, and opportunities together in one platform.
+## ✨ Overview
 
-## About the Project
+The platform brings tourism, culture, local commerce, and community experiences into one engaging browsing experience. It is designed to help visitors find places and opportunities while supporting Algerian businesses and regional discovery.
 
-Best of Algeria aims to promote local tourism, highlight Algerian businesses and communities, and help people discover what each region has to offer.
+## 🌟 Features
 
-The platform is designed to provide an organized and engaging browsing experience, making it easier for visitors to find places and activities across the country.
+- **Destination discovery** — Browse places and experiences across Algeria's wilayas
+- **Category browsing** — Explore activities, restaurants, hotels, real estate, car rentals, spas, and more
+- **Establishment profiles** — View dedicated detail pages for featured places
+- **Wilaya exploration** — Discover Algeria through regional information and destinations
+- **VIP services** — Browse private clubs and concierge-style experiences
+- **Business affiliation** — Dedicated page for partnerships and business opportunities
+- **Community sections** — Highlights for BOA El Khair, Nakhla, Nissa Circle, and other initiatives
+- **Dashboard** — Interface for managing platform content and experiences
+- **WhatsApp contact** — Quick access to business communication
+- **Responsive design** — Adapted for desktop, tablet, and mobile screens
 
-## Key Features
+## 🗺️ Included Experiences
 
-- **Discover Algeria:** Explore interesting destinations and hidden gems.
-- **Explore by Category:** Browse different types of places and experiences.
-- **Clubs & Communities:** Discover clubs and local communities.
-- **Wilaya-Based Discovery:** Find interesting places across Algeria's 58 wilayas.
-- **Partnership Opportunities:** A foundation for connecting businesses and potential partners.
-- **Modern User Interface:** A responsive and user-friendly browsing experience.
+- Restaurants and hotels
+- Activities and tours
+- Real estate listings
+- Vehicle rentals
+- Spas and beauty services
+- Private clubs
+- VIP concierge services
+- Local and featured businesses
+- Tourism and cultural discovery
+- Business partnerships and affiliations
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- React
-- Vite
-- Tailwind CSS
-- JavaScript
+- **React** — Component-based interface
+- **TypeScript** — Typed application code
+- **Vite** — Development server and build tooling
+- **React Router** — Multi-page navigation
+- **Tailwind CSS** — Utility-first styling
+- **Custom CSS** — Themes, global styles, and visual details
 
-## Project Status
+## 📁 Project Structure
 
-Currently a frontend prototype, with further development and additional functionalities planned.
+```text
+Best-of-Algeria/
+├── public/                 # Static assets and media
+│   ├── video/              # Hero and other video assets
+│   ├── logo.png
+│   └── favicon.ico
+├── src/
+│   ├── app/
+│   │   ├── components/     # Shared interface components
+│   │   ├── data/           # Wilaya and application data
+│   │   └── pages/          # Route-specific pages
+│   ├── styles/             # Tailwind, theme, and global styles
+│   └── main.tsx            # Application entry point
+├── guidelines/
+│   └── Guidelines.md       # Design and development guidelines
+├── default_shadcn_theme.css
+├── index.html
+└── postcss.config.mjs
+```
 
-Future improvements may include business partnerships, dedicated partner interfaces, expanded location-based discovery, and additional platform features.
+## 🚀 Getting Started
 
-## Vision
+### Prerequisites
 
-To build a platform that highlights Algeria's potential, supports local businesses, promotes tourism, and helps people discover more of what the country has to offer.
+- [Node.js](https://nodejs.org/) 18 or newer
+- npm (included with Node.js)
 
+### Installation
 
-  ## Running the code
+```bash
+git clone https://github.com/sabrin72/Best-of-Algeria.git
+cd Best-of-Algeria
+npm install
+```
 
-  Run `npm i` to install the dependencies.
+### Development
 
-  Run `npm run dev` to start the development server.
-  
+```bash
+npm run dev
+```
+
+Open the local address shown by Vite in your browser.
+
+### Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+> **Note:** This repository is primarily a frontend prototype. Package scripts and some integrations may depend on the local build configuration being completed or restored.
+
+## 🧭 Application Routes
+
+The application includes routes for landing content and discovery, as well as dedicated experiences such as:
+
+- `/activities`
+- `/restaurants`
+- `/hotels`
+- `/immobilier`
+- `/location-voitures`
+- `/spa-beaute`
+- `/club-prive`
+- `/conciergerie-vip`
+- `/dashboard`
+- `/affiliation`
+- `/qui-sommes-nous`
+
+## 🎨 Design Direction
+
+Best of Algeria is built around a premium and welcoming visual identity inspired by Algerian culture and tourism. The interface combines rich imagery, clear category navigation, strong calls to action, and responsive layouts.
+
+## 📌 Project Status
+
+The project is currently a frontend-focused prototype. The foundation is in place for expanding discovery features, business partnerships, administrative tools, detailed data, and backend integrations.
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Commit your changes
+4. Push the branch
+5. Open a Pull Request
+
+Please keep components focused, reusable, responsive, and consistent with the design guidelines in `guidelines/Guidelines.md`.
+
+## 📄 License
+
+No license has been specified for this repository. Please contact the owner before reuse or redistribution.
+
+## 🙌 Vision
+
+To create a trusted digital showcase that highlights Algeria's potential, promotes local businesses, encourages tourism, and helps people discover more of what the country has to offer.
